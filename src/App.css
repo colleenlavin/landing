@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+    height: 50.09px;
+    width: 125px;
+}
+
+.App-header {
+  background-color: white;
+  height: 121px;
+  padding: 20px;
+  color: #222;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.hero {
+  font-size: large;
+  background: url("story-image.jpg") no-repeat center center fixed;;
+  background-size: cover;
+  height: 830px;
+}
+
+.hero-intro{
+    height: 129px;
+    width: 561px;
+    color: #000000;
+    font-family: Dosis;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    display: inline ;
+}
+
+.styles-shown {	
+  height: 21px;	
+  width: 85px;	
+  color: #000000;
+  font-family: Dosis;	
+  font-size: 17px;	
+  line-height: 21px;
+  text-align: right;
+}
+.sign-up {
+	height: 100px;
+	width: 1900px;
+	background-color: #F3F3F4;
+}
+.shoes{
+	height: 987px;
+	width: 1352px;
+}
+.footer {
+	height: 275px;
+	width: 1900px;
+	background-color: #F6F6F7;
+}
+.social {
+	height: 31px;
+	width: 167px;
+	color: #000000;
+	font-family: Dosis;
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+}
+.copyright {
+	height: 26px;
+	width: 169px;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+}
