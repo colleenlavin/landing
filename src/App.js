@@ -12,40 +12,75 @@ class App extends Component {
         <header className="App-header ">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
-        <div className="hero">
+        <div className="hero col-lg-12 col-md-12">
           <h2 className="hero-intro" >
-            Introducing LOGO, a fresh, new collection {"\n"} of women’s footwear, founded on {"\n"} the belief in pure simplicity.
+            Introducing <span className="bold"> LOGO </span>, a fresh, new collection
         </h2>
-          <h4>
-            Styles shown Beth, Katie & Cindy
+          <br />
+          <h2> of women’s footwear, founded on </h2>
+          <h2>the belief in pure simplicity.</h2>
+          <h4 className="styles-shown">
+            Styles shown <span className="names">Beth, Katie & Cindy</span>
           </h4>
         </div>
-        <div className="sign-up">
+        <div className="sign-up col-lg-12 col-md-12">
           <form>
             <label>
-            Sign up for email
-          <input type="text" value="e-mail" />
+              Sign up for email
+          <input className="email" type="text" value="e-mail" />
             </label>
-            <input type="submit" value="SIGN-UP" />
+            <input className="submit" type="submit" value="SIGN-UP" />
           </form>
         </div>
-        <div className="shoes ">
+        <div className="shoes col-lg-12 col-md-12 text-center">
           <h2 className="styles">Featured Styles</h2>
           <div className="row">
-            <div className="col-md-3">.col-md-3</div>
-            <div className="col-md-3">.col-md-3</div>
-            <div className="col-md-3">.col-md-3</div>
-            <div className="col-md-3">.col-md-3</div>
+            <div className="col-md-3 col-lg-3 col-sm-6">
+              <img className='img-item' src="https://i.imgur.com/YCvItd9.png" alt="Beth |" />
+              <h3 className="item-label"> <span className="bold"> Beth | </span> <span className="selected-color">L124578 - tan </span></h3>
+              <img className='item-colors' src="https://i.imgur.com/v9LoT3e.png" alt="Beth | colors" />
+            </div>
+            <div className="col-md-3 col-lg-3 col-sm-6">
+              <img className='img-item' src="https://i.imgur.com/YCvItd9.png" alt="Beth |" />
+              <h3 className="item-label"> <span className="bold"> Beth | </span> <span className="selected-color">L124578 - tan </span></h3>
+              <img className='item-colors' src="https://i.imgur.com/v9LoT3e.png" alt="Beth | colors" />
+            </div>
+            <div className="col-md-3 col-lg-3 col-sm-6">
+              <img className='img-item' src="https://i.imgur.com/YCvItd9.png" alt="Beth |" />
+              <h3 className="item-label"> <span className="bold"> Beth | </span> <span className="selected-color">L124578 - tan </span></h3>
+              <img className='item-colors' src="https://i.imgur.com/v9LoT3e.png" alt="Beth | colors" />
+            </div>
+            <div className="col-md-3 col-lg-3 col-sm-6">
+              <img className='img-item' src="https://i.imgur.com/YCvItd9.png" alt="Beth |" />
+              <h3 className="item-label"> <span className="bold"> Beth | </span> <span className="selected-color">L124578 - tan </span></h3>
+              <img className='item-colors' src="https://i.imgur.com/v9LoT3e.png" alt="Beth | colors" />
+            </div>
           </div>
           <div className="row">
-            <div className="col-md-3">.col-md-3</div>
-            <div className="col-md-3">.col-md-3</div>
-            <div className="col-md-3">.col-md-3</div>
-            <div className="col-md-3">.col-md-3</div>
+          <div className="col-md-3 col-lg-3 col-sm-6">
+              <img className='img-item' src="https://i.imgur.com/YCvItd9.png" alt="Beth |" />
+              <h3 className="item-label"> <span className="bold"> Beth | </span> <span className="selected-color">L124578 - tan </span></h3>
+              <img className='item-colors' src="https://i.imgur.com/v9LoT3e.png" alt="Beth | colors" />
+            </div>
+            <div className="col-md-3 col-lg-3 col-sm-6">
+              <img className='img-item' src="https://i.imgur.com/YCvItd9.png" alt="Beth |" />
+              <h3 className="item-label"> <span className="bold"> Beth | </span> <span className="selected-color">L124578 - tan </span></h3>
+              <img className='item-colors' src="https://i.imgur.com/v9LoT3e.png" alt="Beth | colors" />
+            </div>
+            <div className="col-md-3 col-lg-3 col-sm-6">
+              <img className='img-item' src="https://i.imgur.com/YCvItd9.png" alt="Beth |" />
+              <h3 className="item-label"> <span className="bold"> Beth | </span> <span className="selected-color">L124578 - tan </span></h3>
+              <img className='item-colors' src="https://i.imgur.com/v9LoT3e.png" alt="Beth | colors" />
+            </div>
+            <div className="col-md-3 col-lg-3 col-sm-6">
+              <img className='img-item' src="https://i.imgur.com/YCvItd9.png" alt="Beth |" />
+              <h3 className="item-label"> <span className="bold"> Beth | </span> <span className="selected-color">L124578 - tan </span></h3>
+              <img className='item-colors' src="https://i.imgur.com/v9LoT3e.png" alt="Beth | colors" />
+            </div>
           </div>
         </div>
-        <div className="footer">
-          <h3 className="social">LET’S BE FRIENDS</h3>
+        <div className="footer col-md-12">
+          <h3 className="">LET’S BE FRIENDS</h3>
           <img src={Instagram} className="insta" alt="instagram" />
           <img src={Facebook} className="facebook" alt="facebook" />
           <h3 className="">©2017 LOGO Footwear</h3>
