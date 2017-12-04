@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  color: #000000;
+}
+
+.App-logo {
+  height: 50.09px;
+  width: 125px;
+}
+
+.App-header {
+  background-color: white;
+  height: 121px;
+  padding: 20px;
+  color: #222;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.hero {
+  font-size: large;
+  background: url("story-image.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 830px;
+}
+
+.hero-intro {
+  font-size: 35px;
+  line-height: 43px;
+  display: inline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.img-item {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #F3C9B1;
+}
+
+.item-label {
+  text-align: left;
+  padding: 5px;
+  padding-top: 10px;
+  font-size: 35px;
+}
+
+.selected-color {
+  font-size: 17px;
+}
+
+.item-colors {
+  padding-bottom: 10px;
+}
+
+.styles {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+}
+
+.styles-shown {
+  height: 21px;
+  font-size: 17px;
+  line-height: 21px;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+}
+
+.names {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 44px;
+}
+
+.sign-up {
+  height: 100%;
+  background-color: #F3F3F4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.shoes {
+  height: 100%;
+}
+
+.footer {
+  height: 275px;
+  background-color: #F6F6F7;
+}
+
+.social {
+  height: 31px;
+  width: 167px;
+  color: #000000;
+  font-family: Dosis;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.copyright {
+  height: 26px;
+  width: 169px;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.email {
+  height: 20px;
+  width: 410px;
+  color: #828486;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 20px;
+}
+
+.submit {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+form {
+  font-size: 18px;
+}

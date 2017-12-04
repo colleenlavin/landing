@@ -3,7 +3,7 @@ import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
 import logo from './logo.svg';
 import Facebook from './Facebook.svg'
 import Instagram from './Instagram.svg'
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
